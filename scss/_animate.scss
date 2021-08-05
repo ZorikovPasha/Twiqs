@@ -1,0 +1,102 @@
+.top__subtitle {
+  transform: translateX(-150%);
+  transition: transform .4s ease 1s;
+}
+.top__subtitle.anim {
+  transform: translateX(0%);
+}
+.top__title {
+  transform: translateX(-150%);
+  transition: transform .4s ease 1.7s;
+}
+.top__title.anim {
+  transform: translateX(0%);
+}
+.top__btn {
+  transform: translateX(-300%);
+  transition: transform .4s ease 2.4s;
+}
+.top__btn.anim {
+  transform: translateX(0%);
+}
+
+
+
+.sustain__title {
+  transform: scale(0);
+  transition: transform .5s ease .7s;
+}
+.sustain__title.anim {
+  transform: scale(1);
+}
+.sustain__btn {
+  transform: scale(0);
+  transition: transform .5s ease 1.4s;
+}
+.sustain__btn.anim {
+  transform: scale(1);
+}
+
+
+
+.sellers__info {
+  transform: translateX(-150%);
+  transition: transform .6s ease .7s;
+}
+.sellers__info.anim {
+  transform: translateX(0%);
+}
+.item-slider {
+  transform: scale(0);
+  transition: transform .4s ease .7s;
+}
+.item-slider.anim {
+  transform: scale(1);
+}
+
+
+
+.reviews__slider-item {
+  transform: scale(0);
+  transition: transform .4s ease 1.2s;
+}
+.reviews__slider-item.anim {
+  transform: scale(1);
+}
+
+
+
+.benefits__item {
+  transform: scale(0);
+  transition: transform .4s ease .7s;
+}
+.benefits__item.anim {
+  transform: scale(1);
+}
+
+
+
+.article__content {
+  transform: translateX(-150%);
+  transition: transform .6s ease .7s;
+}
+.article__content.anim {
+  transform: translateX(0px);
+}
+.article__img {
+  transform: scale(0);
+  transition: transform .4s ease 1s;
+}
+.article__img.anim {
+  transform: scale(1);
+}
+
+
+
+.explore__item {
+  transform: scale(0);
+  transition: transform .4s ease .7s;
+}
+.explore__item.anim {
+  transform: scale(1);
+}
