@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, 
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.btn {
+  font-size: 15px;
+  line-height: 25px;
+  border: 1px solid #212806;
+  border-radius: 40px;
+  display: inline-block;
+  position: relative;
+  padding: 11px 78px 11px 28px;
+  transition: all 0.5s;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 14px;
+  }
+}
+
+.btn-black {
+  background-color: #212806;
+  color: #ffffff;
+  transition: all .4s;
+  &::after {
+    background-image: url("../images/arr-white.png");
+  }
+  &:hover {
+    background-color: #ffffff;
+    color: #212806;
+    &::after {
+      background-image: url("../images/arr-black.png");
+    }
+  }
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #212806;
+  transition: all .4s;
+  &::after {
+    background-image: url("../images/arr-black.png");
+  }
+  &:hover {
+    background-color: #212806;
+    color: #ffffff;
+    &::after {
+      background-image: url("../images/arr-white.png");
+    }
+  }
+
+}
+
